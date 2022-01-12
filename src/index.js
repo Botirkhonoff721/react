@@ -5,7 +5,10 @@ import App from './App.jsx'
 
 ReactDOM.render(
   <React.StrictMode>  
-    <App />
+    <App>
+    <h1>Assalomu alaykum</h1>
+      <span>Bu span tagida yozilgan</span>
+    </App>
   </React.StrictMode>,
   document.getElementById('root')
 

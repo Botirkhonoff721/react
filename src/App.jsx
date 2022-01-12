@@ -1,18 +1,39 @@
 import React from 'react';
-import Child from './test';
-
-const data=[
-    {id:1,name: 'Otabek',status: 'Student'},
-    {id:2,name: 'Iqbol',status: 'Student'},
-    {id:3,name: 'Zokir',status: 'Student'},
-    {id:4,name: 'Asadullo',status: 'Student'},
-    {id:5,name: 'Bahtiyor',status: 'Student'},
-  ]
+import './App.css'
+import Air from './assets/airbnbpic.png'
+import ebay from './assets/ebaypic.png'
+import pay from './assets/paypallicon.png'
+import Container from './Container.jsx'
 class App extends React.Component {
     render(){
         return(
-            <div>
-                <Child data={data}/>
+            <div className='Wrapper'>
+            <Container img={pay}  title='Airbnb' text='There is abooo in the library. If you want to read book just enter to the internet and read '>
+
+            </Container>
+         
+            <Container img={ebay}  title='Airbnb' text='There is abooo in the library. If you want to read book just enter to the internet and read '>
+
+            </Container>
+         
+            <Container img={pay}  title='Airbnb' text='There is abooo in the library. If you want to read book just enter to the internet and read '>
+
+            </Container>
+         
+            <Container img={ebay} title='Airbnb' text='There is abooo in the library. If you want to read book just enter to the internet and read '>
+
+            </Container>
+         
+            <Container img={ebay}  title='Airbnb' text='There is abooo in the library. If you want to read book just enter to the internet and read '>
+
+            </Container>
+            <Container img={pay} title='Airbnb' text='There is abooo in the library. If you want to read book just enter to the internet and read '>
+
+            </Container>
+         
+          
+         
+         
             </div>
         )
     }

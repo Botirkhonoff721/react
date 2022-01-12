@@ -1,0 +1,36 @@
+.container {
+    width: 520px;
+    height: 374px;
+    box-shadow: -5px -5px 8px #FFFFFF, 5px 5px 8px ;
+    margin: 10px;
+}
+
+.first {
+    background-color: green;
+}
+.title {
+    text-align: center;
+    color: greenyellow;
+    margin: 0;
+}
+
+.text {
+    text-align: center;
+    padding: 0;
+}
+
+.rasm {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.wrapperti {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    width: 100px;
+    height: 40px;
+    margin-left: 220px;
+}
